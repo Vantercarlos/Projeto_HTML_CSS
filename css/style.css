@@ -19,14 +19,14 @@ html, body{
 }
 
 .center{
-    width: 1078px;
+    max-width: 1088px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2%;
 }
 
 .header{
-    min-width: 1078px;
     width: 100%;
+    padding: 0 2%;
     height: 60px;
     background-color: #363A6D;
 }
@@ -36,8 +36,8 @@ html, body{
 }
 
 .container-banner{
-    min-width: 1078px;
     width: 100%;
+    padding: 0 2%;
     height: 557px;
     background-image: url('../imagens/header_bg.png');
     background-size: cover;
@@ -134,8 +134,7 @@ html, body{
 }
 
 .container-2{
-    min-width: 1078px;
-    padding: 60px 0;
+    padding: 60px 2%;
     background-color: #DDD;
     text-align: center;
 }
@@ -145,7 +144,7 @@ html, body{
 }
 
 .container-2 p{
-    width: 698px;
+    width: 100%;
     margin: 15px 0;
     display: inline-block;
     text-align: justify;
@@ -163,8 +162,7 @@ html, body{
 }
 
 .section-1{
-    min-width: 1078px;
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .section-1 h2{
@@ -186,7 +184,7 @@ html, body{
 
 .container-single p{
     display: inline-block;
-    /*text-align: justify;*/
+    text-align: justify;
     padding:10px 0;
 }
 
